@@ -6,5 +6,7 @@ let booleanValue1 = readlineSync.question ("enter the first boolean Value");
 
 let booleanValue2 = readlineSync.question ("enter the second boolean value");
 
+let result = booleanValue1 || booleanValue2;
 
+console.log("Result of OR operation:", result);
 
