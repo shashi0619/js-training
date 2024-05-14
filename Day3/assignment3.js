@@ -2,6 +2,6 @@
 
 const readlinesync = require ("readline-sync");
 
-let question = readlinesync.question( " i have job " );
+let question = readlinesync.question( " i have job :" );
 
 console.log("i have a job "+ question  );
