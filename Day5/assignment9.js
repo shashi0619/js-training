@@ -1,4 +1,4 @@
-//Given the sides of two squares  WAP to find the square with maximum area
+//Given the sides of two squares  WAP to find the square with minimum area
 
 const readlineSync = require("readline-sync");
 
@@ -10,11 +10,11 @@ const sideLength2 = readlineSync.question("Enter the side length of the second s
 const area1 = sideLength1 * sideLength1;
 const area2 = sideLength2 * sideLength2;
 
-let maximum;
-if (area1 > area2) {
-    console.log("The first square has the maximum area.");
-} else if (area2 > area1) {
-    console.log("The second square has the maximum area.");
+let minimum;
+if (area1 < area2) {
+    console.log("The first square has the minimum area.");
+} else if (area2 < area1) {
+    console.log("The second square has the minimum area.");
 } else {
     console.log("Both squares have the same area.");
 }
