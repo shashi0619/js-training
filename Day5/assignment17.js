@@ -7,17 +7,17 @@ const earnings1 = readlineSync.question("Enter the earnings of the first family:
 const expenses1 = readlineSync.question("Enter the expenses of the first family: ");
 
 
-const savings1 = earnings1 - expenses1;
+const family_savings1 = earnings1 - expenses1;
 
 
 const earnings2 = readlineSync.question("Enter the earnings of the second family: ");
 const expenses2 = readlineSync.question("Enter the expenses of the second family: ");
 
 
-const savings2 = earnings2 - expenses2;
+const family_savings2 = earnings2 - expenses2;
 
 
-if (savings1 > savings2)
+if (family_savings1 > family_savings2)
     
 {
     console.log("The first family has more savings.");
