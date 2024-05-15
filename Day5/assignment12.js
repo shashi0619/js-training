@@ -11,11 +11,11 @@ const brother2 = readlineSync.question("Enter the age of the second brother: ");
 if (brother1 > brother2) 
     
     {
-    console.log("The first brother is older.");
+    console.log("The first brother is elder.");
 
 }
 else
-  { console.log (" The second brother is older." );
+  { console.log (" The second brother is elder." );
 
 
   }
