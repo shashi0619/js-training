@@ -16,10 +16,12 @@ const husbandAge2 = readlineSync.question("Enter the age of the husband in the s
 const avgAge2 = (wifeAge2 + husbandAge2) / 2;
 
 
-if (avgAge1 > avgAge2) {
+if (avgAge1 > avgAge2)
+ {
     console.log("The first family has the maximum average age.");
 }
-else {
+else
+ {
 console.log("The second family has the maximum average age.");
 } 
 
