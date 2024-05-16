@@ -51,4 +51,4 @@ if ( bike_speed3 > bike_speed1)
      console.log("The third bike rider traveled with more speed.");
      }
 
-console.log (" end of if else ")
+console.log (" end of if ")
