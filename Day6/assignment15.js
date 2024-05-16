@@ -36,6 +36,7 @@ if ( num4 >= num1){
     }
 }
 
+console.log (" end of if ")
 
 
     
