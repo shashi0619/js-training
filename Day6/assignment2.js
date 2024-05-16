@@ -8,7 +8,7 @@ const number2 = readlineSync.question(" number 2 :");
 
 const number3 = readlineSync.question(" number 3 :");
 
-// find the minimum of  three numbers  number 1 (or) number 2 (or) number 3 ;
+
 
 if(number1 < number2)
     
