@@ -16,7 +16,7 @@ if (scoreTeam1 > scoreTeam2)
     {
     winningTeam = "Team 1";
     }
-  if ( scoreTeam2 > scoreTeam1)
+if ( scoreTeam2 > scoreTeam1)
     {
     winningTeam = "Team 2";
     }
