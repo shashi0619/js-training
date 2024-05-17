@@ -7,17 +7,17 @@ const studentscore = readlineSync.question( "Enter the student's score: ");
 
 {
 if (studentscore  >= 0) 
-    if (studentscore <= 40)
+    if (studentscore < 40)
        {
         console.log( "The student's grade is D:");
        }
 if (studentscore  >= 40) 
-        if (studentscore <= 60)
+        if (studentscore <60)
            {
             console.log( "The student's grade is C:");
            } 
 if (studentscore  >= 60) 
-    if (studentscore <= 80)
+    if (studentscore < 80)
             {
             console.log( "The student's grade is B:");
              } 

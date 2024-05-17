@@ -8,6 +8,8 @@ const number2 = readlineSync.question(" number 2 :");
 
 const number3 = readlineSync.question(" number 3 :");
 
+
+
 if (number1 >= number2 && number1 >= number3) {
     
     console.log("Number 1 is maximum: " + number1);

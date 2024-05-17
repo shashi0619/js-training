@@ -22,3 +22,4 @@ if (number3 <= number1 && number3 <= number2) {
     
     console.log("Number 3 is minimum: " + number3);
 }
+console.log (" end of if ")

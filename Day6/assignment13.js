@@ -17,12 +17,12 @@ if (temperature  >= -10)
             console.log( "Can people step out based on the temperature? : only urgent");
            } 
 if (temperature  >= 0) 
-    if (temperature <= 40)
+    if (temperature < 40)
             {
             console.log("Can people step out based on the temperature? : can step out ");
              } 
 if (temperature  >= 40) 
-    if (temperature <= 50)
+    if (temperature < 50)
          {
         console.log( "Can people step out based on the temperature? : only urgent");
          }   
