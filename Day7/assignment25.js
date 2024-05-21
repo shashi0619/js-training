@@ -13,7 +13,7 @@ const area3 = sideLength3 * sideLength3;
 if (area1 <= area2 && area1 <= area3) {
     console.log("The first square has the minimum area: " + area1);
 }
-if (area2 <= area1 && area2 <= area3) {
+else if (area2 <= area1 && area2 <= area3) {
     console.log("The second square has the minimum area: " + area2);
 }
 else {

@@ -11,7 +11,7 @@ const area2 = sideLength2 * sideLength2;
 if (area1 > area2) {
     console.log("The first square has the maximum area: " + area1);
 }
-    else (area2 > area1)
+    else if(area2 > area1)
    {
    console.log("The second square has the maximum area: " + area2);
    }

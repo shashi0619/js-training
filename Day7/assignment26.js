@@ -18,15 +18,14 @@ let fastestRider;
 
 if (bike_speed1 > bike_speed2 && bike_speed1 > bike_speed3) {
     fastestRider = "The first bike rider";
-} else {
-    if (bike_speed2 > bike_speed1 && bike_speed2 > bike_speed3) {
-        fastestRider = "The second bike rider";
-    } else {
-        if (bike_speed3 > bike_speed1 && bike_speed3 > bike_speed2) {
-            fastestRider = "The third bike rider";
-        } 
-    }
+} else if (bike_speed2 > bike_speed1 && bike_speed2 > bike_speed3) {
+    fastestRider = "The second bike rider";
 }
+else if (bike_speed3 > bike_speed1 && bike_speed3 > bike_speed2) {
+    fastestRider = "The third bike rider";
+}
+
+
 
 if (fastestRider !== undefined) {
     console.log(fastestRider + " traveled with more speed.");

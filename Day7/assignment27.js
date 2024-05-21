@@ -23,12 +23,9 @@ const avgAge3 = (wifeAge3 + husbandAge3) / 2;
 
 if (avgAge1 > avgAge2 && avgAge1 > avgAge3) {
     console.log("The first family has the maximum average age.");
-} else {
-    if (avgAge2 > avgAge1 && avgAge2 > avgAge3) {
-        console.log("The second family has the maximum average age.");
-    } else {
-        if (avgAge3 > avgAge1 && avgAge3 > avgAge2) {
-            console.log("The third family has the maximum average age.");
-        } 
-    }
+} else if (avgAge2 > avgAge1 && avgAge2 > avgAge3) {
+    console.log("The second family has the maximum average age.");
+} else if (avgAge3 > avgAge1 && avgAge3 > avgAge2) {
+    console.log("The third family has the maximum average age.");
 }
+
